@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Guide Tour</string>
+    <string name="shop">Shopping</string>
+    <string name="restaurants">Restaurant</string>
+    <string name="lib">Libraries</string>
+    <string name="enter">Entertainment</string>
+
+</resources>
