@@ -37,7 +37,7 @@ public class Shopping extends Fragment {
         ArrayList<Resources> shop_list = new ArrayList<>();
 
         for (int i = 0; i < MainActivity.resourcesClassArray.size(); i++) {
-            if (MainActivity.resourcesClassArray.get(i).getResourceType().equals("Shopping")) {
+            if (MainActivity.resourcesClassArray.get(i).getResourceType().equals(getString(R.string.shop))) {
                 shop_list.add(MainActivity.resourcesClassArray.get(i));
             }
         }

@@ -36,7 +36,7 @@ public class Restaurants extends Fragment {
 
         ArrayList<Resources> res_list = new ArrayList<>();
         for (int i = 0; i < MainActivity.resourcesClassArray.size(); i++) {
-            if (MainActivity.resourcesClassArray.get(i).getResourceType().equals("Restaurant")) {
+            if (MainActivity.resourcesClassArray.get(i).getResourceType().equals(getString(R.string.restaurants))) {
                 res_list.add(MainActivity.resourcesClassArray.get(i));
             }
         }

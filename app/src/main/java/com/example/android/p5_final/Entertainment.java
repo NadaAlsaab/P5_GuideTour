@@ -37,7 +37,7 @@ public class Entertainment extends Fragment {
         ArrayList<Resources> ent_list = new ArrayList<>();
 
         for (int i = 0; i < MainActivity.resourcesClassArray.size(); i++) {
-            if (MainActivity.resourcesClassArray.get(i).getResourceType().equals("Entertainment")) {
+            if (MainActivity.resourcesClassArray.get(i).getResourceType().equals(getString(R.string.enter))) {
                 ent_list.add(MainActivity.resourcesClassArray.get(i));
             }
         }

@@ -3,6 +3,8 @@ package com.example.android.p5_final;
 
 import android.content.Context;
 import android.os.Bundle;
+import android.support.annotation.NonNull;
+import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -24,7 +26,7 @@ public class Libraries extends Fragment {
 
 
     @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container,
+    public View onCreateView(@NonNull LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         View Lib = inflater.inflate(R.layout.fragment_libraries, container, false);
@@ -37,7 +39,7 @@ public class Libraries extends Fragment {
         ArrayList<Resources> lib_list = new ArrayList<>();
 
         for (int i = 0; i < MainActivity.resourcesClassArray.size(); i++) {
-            if (MainActivity.resourcesClassArray.get(i).getResourceType().equals("Library")) {
+            if (MainActivity.resourcesClassArray.get(i).getResourceType().equals(getString(R.string.lib))) {
                 lib_list.add(MainActivity.resourcesClassArray.get(i));
             }
         }

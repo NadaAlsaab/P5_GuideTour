@@ -1,8 +1,24 @@
 <resources>
     <string name="app_name">Guide Tour</string>
+
     <string name="shop">Shopping</string>
-    <string name="restaurants">Restaurant</string>
+
+    <string name="restaurants">Restaurants</string>
+
     <string name="lib">Libraries</string>
-    <string name="enter">Entertainment</string>
+
+    <string name="enter">Entertainments</string>
+
+    <string name="piatto">Piatto</string>
+    <string name="Lusin">Lusin</string>
+
+    <string name="redseaMall">Redsea Mall</string>
+    <string name="arabMall">Arab Mall</string>
+
+    <string name="shallal">Shallal</string>
+    <string name="corniche">Corniche</string>
+
+    <string name="kingFahadLib">King Fahad Library</string>
+    <string name="kingAzizLib">King Abdulaziz Library</string>
 
 </resources>

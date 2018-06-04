@@ -19,15 +19,14 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        resourcesClassArray.add(new Resources("Piatto", "Restaurant", R.drawable.res1));
-        resourcesClassArray.add(new Resources("Lusin", "Restaurant", R.drawable.res2));
-        resourcesClassArray.add(new Resources("Corniche", "Entertainment", R.drawable.enter2));
-        resourcesClassArray.add(new Resources("Shallal", "Entertainment", R.drawable.enter4));
-        resourcesClassArray.add(new Resources("King Fahad library", "Library", R.drawable.lib2));
-        resourcesClassArray.add(new Resources("King Abdulaziz university library", "Library", R.drawable.lib1));
-        resourcesClassArray.add(new Resources("Redsea mall", "Shopping", R.drawable.shop1));
-        resourcesClassArray.add(new Resources("Arab mall", "Shopping", R.drawable.shop2));
-
+        resourcesClassArray.add(new Resources(getString(R.string.piatto), getString(R.string.restaurants), R.drawable.res1));
+        resourcesClassArray.add(new Resources(getString(R.string.Lusin), getString(R.string.restaurants), R.drawable.res2));
+        resourcesClassArray.add(new Resources(getString(R.string.corniche), getString(R.string.enter), R.drawable.enter2));
+        resourcesClassArray.add(new Resources(getString(R.string.shallal),  getString(R.string.enter), R.drawable.enter4));
+        resourcesClassArray.add(new Resources(getString(R.string.kingFahadLib),  getString(R.string.lib), R.drawable.lib2));
+        resourcesClassArray.add(new Resources(getString(R.string.kingAzizLib),  getString(R.string.lib), R.drawable.lib1));
+        resourcesClassArray.add(new Resources(getString(R.string.redseaMall),  getString(R.string.shop), R.drawable.shop1));
+        resourcesClassArray.add(new Resources(getString(R.string.arabMall),  getString(R.string.shop), R.drawable.shop2));
 
 
         Toolbar toolbar = findViewById(R.id.toolbar);
